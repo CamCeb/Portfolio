@@ -3,6 +3,7 @@ import { Projects } from './Projects'
 import './styles.css'
 import Fade from "react-reveal/Fade";
 import { ContactUs } from './ContactMe';
+import intro from "./images/portrait.jpg"
 
 function App(){
   return(
@@ -27,7 +28,7 @@ function App(){
             <p>Junior computer engineering student at <span>University of Massachusetts-Amherst</span></p>
           </div>
           <div className="right-column">
-            <img src="./portfolio/portrait.jpg" height="400"/>
+            <img src={intro} alt= "Intro" height="400"/>
           </div>     
         </div>
 
