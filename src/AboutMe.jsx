@@ -3,7 +3,7 @@ export function AboutMe(){
     <>
         <div className="about-box">
             <div className="about-left">
-            <img src="/images/aboutme.jpg" height="300"/>
+            <img src="./portfolio/aboutme.jpg" height="300"/>
             </div>
             <div className="about-right">
                 <h1>About Me:</h1>

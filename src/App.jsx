@@ -27,7 +27,7 @@ function App(){
             <p>Junior computer engineering student at <span>University of Massachusetts-Amherst</span></p>
           </div>
           <div className="right-column">
-            <img src="/images/portrait.jpg" height="400"/>
+            <img src="./portfolio/portrait.jpg" height="400"/>
           </div>     
         </div>
 
