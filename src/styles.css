@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("/portfolio/background1.jpg");
+    background: url("/public/background1.jpg");
     background-repeat: no-repeat;
     color: white;
     margin: 2 auto;
