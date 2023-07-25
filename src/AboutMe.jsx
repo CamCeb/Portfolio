@@ -1,4 +1,4 @@
-import aboutme from './public/aboutme.jpg'
+import aboutme from './images/aboutme.jpg'
 
 export function AboutMe(){
     return( 
