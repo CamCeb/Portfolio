@@ -1,9 +1,11 @@
+import aboutme from './public/aboutme.jpg'
+
 export function AboutMe(){
     return( 
     <>
         <div className="about-box">
             <div className="about-left">
-            <img src="./portfolio/aboutme.jpg" height="300"/>
+            <img src={aboutme} alt="Aboutme" height="300"/>
             </div>
             <div className="about-right">
                 <h1>About Me:</h1>
