@@ -7,7 +7,7 @@ import intro from "./images/portrait.jpg"
 import linkedin from "./images/linkedin.png"
 import github from "./images/github-mark.svg"
 import resumeicon from "./images/resume.png"
-
+import pdf from "./downloads/CameronCebula_Resume.docx"
 
 function App(){
   return(
@@ -39,7 +39,7 @@ function App(){
                   <img src={github} alt="GitHub" height="50"/>
                   </a>
                 </div>
-                <div className="resume"><a href="./downloads/CameronCebula_Resume.pdf" download>
+                <div className="resume"><a href={pdf} download="CameronCebula_Resume">
                   <img src={resumeicon} alt="Resume" height="50"/>
                   </a>
                 </div>
